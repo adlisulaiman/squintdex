@@ -3,9 +3,7 @@ ob_start();
 //config
 setlocale(LC_ALL, 'ms_MY');
 date_default_timezone_set('Asia/Kuala_Lumpur');
-//$folder = 'C:\servers\xampp8\xampp\htdocs\jps\v2\\';
-//$folder = 'C:\servers\xampp8\xampp\htdocs\jps\v2';
-$folder = 'C:\servers\xampp8\xampp\htdocs\jps\v2';
+$folder = 'C:\wwwroot\\';
 $delay_seconds = "30"; 
 
 echo "<br>Monitoring : {$folder} ";
